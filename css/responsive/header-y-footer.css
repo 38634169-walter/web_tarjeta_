@@ -1,0 +1,122 @@
+@media screen and (max-width:800px){
+
+
+
+    /*   HEADER   ////////////////////////////////////////////////////////////*/
+    /*   MENU RESPONSIVE   ////////////////////////////////////////////////////////////*/
+
+    .menu-responsive{
+        width:100%;
+        top:0;
+        position:fixed;
+        background: rgb(168, 71, 71);
+        z-index: 3;
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu-responsive>i{
+        float:right;
+        font-size:35px;
+        color:white;
+        padding:15px;
+        cursor:pointer;
+    }
+    .menu-responsive>h1{
+        font-size: 39px;
+        color:white;
+        padding:5px;
+    }
+
+    /*   MENU PRINCIPAL   ////////////////////////////////////////////////////////////*/
+
+    nav{
+        width:80%;
+        left:-100%;
+        top:65px;
+        position: fixed;
+        height:calc(100vh - 68px);
+        overflow: scroll;
+        z-index: 3;
+        background: rgb(168, 71, 71);
+        transition: none;
+    }
+    nav>ul{
+        display:block;
+    }
+
+    .menu{
+        float:none;
+        width:100%;
+        margin-top:0cm;
+    }
+    .menu>li>a:hover{
+        background:none;
+    }
+    .menu>li:hover{
+        background:rgba(255, 0, 0, 0.425);
+    }
+
+    .nom{
+        float:none;
+        width:100%;
+        height:2cm;
+        margin-top:1cm;
+    }
+
+
+    /*   FOOTER   ////////////////////////////////////////////////////////////*/
+
+    .footer-container{
+        padding:20px 0px;
+    }    
+    .footer-container>ul{
+        height:100%;
+        margin-top: -0.5cm;
+    }
+
+    /* LOGO FOOTER */
+    .logo-footer{
+        float:none;
+        width:100%;
+        position:relative;
+        top:1cm;
+    }
+    
+    /* ICONOS */
+
+    .iconos-footer{
+        width:100%;
+        float:none;
+        margin-left:-5%;
+        position:relative;
+        top:0.8cm;
+    }
+    .iconos-footer>a>i{
+        font-size:calc(1vw + 14px);
+    }
+    /* DERECHOS */
+
+    .derechos-footer{
+        float:none;
+        width:100%;
+        font-size: calc(1vw + 6px);
+        position:relative;
+        top:1cm;
+    }
+
+
+}
+
+@media screen and (max-width:400px){
+    
+    /*   MENU PRINCIPAL   ////////////////////////////////////////////////////////////*/
+
+    .nom{
+        height:1cm;
+    }
+    .nom>h1{
+        font-size: calc(1vw + 17px);
+    }
+
+
+}

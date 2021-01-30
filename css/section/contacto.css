@@ -1,0 +1,99 @@
+
+/*   PORTADA   ///////////////////////////////////////////////////////////////////////*/
+
+
+.titulo-mail{
+    font-size: calc(1vw + 25px);
+    color:black;
+    font-family: 'Coda Caption', sans-serif;
+    text-align:center;
+    padding:1cm 5px;
+}
+
+.portada-contacto{
+    height:9cm;
+    background-image: url(../../imagenes/portada/3.jpg);
+    background-size:100% 100%;
+    margin-top: 68px;
+}
+.portada-contacto>div{
+    background: rgba(0, 0, 0, 0.74);
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portada-contacto>div>h1{
+    font-size:calc(1vw + 14px);
+    color:black;
+    background:rgba(255, 255, 255, 0.39);
+    padding:15px;
+    border-radius: 15px;
+    font-family: 'Ultra', serif;
+}
+
+/*   EMAIL   ///////////////////////////////////////////////////////////////////////*/
+
+
+.mail>form{
+    width:50%;
+    margin:auto;
+}
+.mail>form>li{
+    margin-top: 0.5cm;
+    display:grid;    
+}
+.mail>form>li>input{
+    border-radius:15px;
+    padding-left: 10px;
+}
+.mail>form>li>textarea{
+    border-radius:15px;
+    padding-left: 10px;
+}
+.mail>form>li>button{
+    border:9px solid rgb(1, 218, 1);
+    background: green;
+    color:white;
+    padding:10px;
+    border-radius: 35px;
+    transition:all 1s;
+}
+
+.mail>form>li>button:hover{
+    border:9px solid green;
+    background:rgb(1, 218, 1)
+}
+
+
+@media all and (max-width:400px){
+    
+    /*   PORTADA   ///////////////////////////////////////////////////////////////////////*/
+
+    .portada-contacto>div>h1{
+        text-align: center;
+    }
+
+
+    /*   EMAIL   ///////////////////////////////////////////////////////////////////////*/
+    
+    .mail>form{
+        width:100%;
+    }
+    .mail>form>li{
+        margin:0px 5px;
+    }
+    .mail>form>li>input{
+        width:95%;
+    }
+    .mail>form>li>textarea{
+        width:95%;
+    }
+    .mail>form>li>button{
+        position:relative;
+        top:0.5cm;
+        width:3cm;
+        margin:auto;
+    }
+}

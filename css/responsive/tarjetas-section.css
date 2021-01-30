@@ -1,0 +1,310 @@
+
+@media all and (max-width:800px){
+
+    /*   IMAGEN PORTADA   ////////////////////////////////////////////////////////////*/
+
+    .logo{
+        font-size: calc(1vw + 25px);
+    }
+    .logo-icon{
+        font-size: calc(1vw + 25px);
+    }
+
+    /* IMAGEN */
+    .imagen-portada-container>img{
+        width:3cm;
+        height:2cm;
+    }
+
+    /*   BOTENES TARJETAS PORADA   ////////////////////////////////////////////////////////////*/
+
+    .btns-tarjetas-container>button{
+        width:3cm;
+        font-size: calc(1vw + 9px);
+        margin:0 3px;
+    }
+
+    /*   SECTION   ////////////////////////////////////////////////////////////*/
+    /*   TARJETA ROJA SECTION   ////////////////////////////////////////////////////////////*/
+
+    .tarjeta-roja-container{
+        width: 95%;
+        display:block;
+    }
+
+    .tarjeta-roja-container>ul>p{
+        font-size: calc(1vw + 7px);
+    }
+
+
+    .tarjeta-roja-container>ul>img{
+        width:4cm;
+        height:3cm;
+        margin-right:0.2cm;
+    }
+
+
+    /*   TARJETA AZUL SECTION   ////////////////////////////////////////////////////////////*/
+
+    .tarjeta-azul-container{
+        width: 95%;
+    }
+
+    /* IMAGEN */
+
+    .img-right>img{
+        width:3cm;
+        height:3cm;
+        margin-left: -2cm;
+    }
+
+    /* BOX-TEXT */
+
+    .box-text{
+        width:95%;
+        margin:auto;
+        margin-top:19cm;
+    }
+
+    .box-text>p{
+        font-size: calc(1vw + 9px);
+    }
+
+    /*   TARJETA DORADA SECTION   ////////////////////////////////////////////////////////////*/
+
+    .tarjeta-dorada-container{
+        width: 95%;
+    }
+
+    .tarjeta-dorada-container>li{
+        width:9cm;
+        height:4cm;
+    }
+
+    /* BOX */
+
+    .box-info-dorada>img{
+        width:6cm;
+        height:4cm;
+    }
+
+    .box-info-dorada>p{
+        font-size: calc(1vw + 8px);
+
+    }
+
+    /*   DIFERENCIAS   ////////////////////////////////////////////////////////////*/
+
+
+    .diferencias{
+        width: 95%;
+    }
+
+    /* TEXTO */
+    .diferencias>p{
+        font-size: calc(1vw + 8px);
+    }
+
+    /* BOX TARJETA */
+    .diferencias>li{
+        width:8cm;
+        height:3.5cm;
+    }
+
+    .diferencias>li>h1{
+        font-size:calc(1vw + 13px);
+    }
+
+
+    /* tablas*/
+
+    .tablas{
+        width:10cm;
+    }
+
+    .tablas>tbody>tr>td{
+        font-size:calc(1vw + 8px);
+    }    
+    .tablas>thead>tr>th{
+        font-size:calc(1vw + 8px);
+    }    
+    /* tabla roja */
+
+    #cabeza-tabla-roja{
+        font-size:calc(1vw + 11px);
+    }
+
+    /* tabla azul */
+
+    #cabeza-tabla-azul{
+        font-size: calc(1vw + 11px);
+    }
+
+
+    /* tabla dorada */
+
+    #cabeza-tabla-dorada{
+        font-size:calc(1vw + 11px);
+    }
+}
+
+@media all and (max-width:400px){
+
+        /*   IMAGEN PORTADA   ////////////////////////////////////////////////////////////*/
+    .imagen-portada-container{
+        flex-direction:column;
+    }
+    .logo{
+        font-size: calc(1vw + 25px);
+        margin-top:1cm;
+    }
+    
+    /* IMAGEN */
+    .imagen-portada-container>img{
+        position:relative;
+        margin:auto;
+        margin-top:0;
+    }
+
+
+    /*   SECTION   ////////////////////////////////////////////////////////////*/
+    /*   TARJETA ROJA SECTION   ////////////////////////////////////////////////////////////*/
+
+    .tarjeta-roja-container>ul{
+        width:100%;
+        flex-direction: column;
+        align-items: center;
+        margin-top:0;
+    }
+
+    .tarjeta-roja-container>ul>p{
+        font-size: calc(1vw + 9px);
+    }
+    .tarjeta-roja-container>ul>img{
+        margin-right:0;
+        padding-bottom:10px;
+    }
+
+    /*   TARJETA AZUL SECTION   ////////////////////////////////////////////////////////////*/
+
+    /* TEXTOS */
+    .textos-body{
+        width:95%;
+        float:none;
+        position:relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+    .textos-body>p{
+        font-size:calc(1vw + 10px);
+        margin-top: 0;
+    }
+
+    /* IMAGEN */
+
+    .img-right{
+        width:100%;
+        float:none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;        
+    }
+    .img-right>img{
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    /* BOX-TEXT */
+
+    .box-text{
+        margin-top:1cm;
+    }
+
+
+    /*   TARJETA DORADA SECTION   ////////////////////////////////////////////////////////////*/
+
+    .tarjeta-dorada-container>li{
+        width:5cm;
+        height:2cm;
+    }
+    .tarjeta-dorada-container>li>h1{
+        font-size: calc(1vw + 11px);
+    }
+
+    /* BOX */
+
+    .box-info-dorada>li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-info-dorada>li>i{
+        font-size:50px;
+        padding:20px;
+    }
+
+    .box-info-dorada>img{
+        width:3.5cm;
+        height:2cm;
+        padding:0px 5px;
+    }
+
+    .box-info-dorada>p{
+        font-size: calc(1vw + 9px);
+
+    }
+
+    /*   DIFERENCIAS   ////////////////////////////////////////////////////////////*/
+
+    
+    /* TEXTO */
+
+    .diferencias>p{
+        font-size: calc(1vw + 9px);
+    }
+
+    /* BOX TARJETA */
+    .diferencias>li{
+        width:5.5cm;
+        height:3cm;
+    }
+    .diferencias>li>h1{
+        font-size:calc(1vw + 12px);
+    }
+
+
+    /* tablas*/
+
+    .tablas{
+        width:5.5cm;
+    }
+
+    .tablas>tbody>tr>td{
+        font-size:calc(1vw + 10px);
+    }    
+    .tablas>thead>tr>th{
+        font-size:calc(1vw + 10px);
+    }    
+    /* tabla roja */
+
+    #cabeza-tabla-roja{
+        font-size:calc(1vw + 12px);
+    }
+
+    /* tabla azul */
+
+    #cabeza-tabla-azul{
+        font-size: calc(1vw + 12px);
+    }
+    
+
+    /* tabla dorada */
+
+    #cabeza-tabla-dorada{
+        font-size:calc(1vw + 12px);
+    }
+
+}

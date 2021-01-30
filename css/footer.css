@@ -1,0 +1,71 @@
+
+.footer-container{
+    position: relative;
+    top:1cm;
+    background:rgba(255, 0, 0, 0.425);
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer-container>ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1cm;
+}
+
+
+/* ICONOS */
+.iconos-footer{
+    width:25%;
+    float:left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconos-footer>a{
+    text-decoration: none;
+}
+
+.iconos-footer>a>i{
+    color:white;
+    margin:5px;
+    border-radius: 35px;
+    border:2px solid white;
+    font-size:calc(1vw + 7px);
+    padding:10px;
+    transition: all 1s;
+}
+
+.iconos-footer>a>i:hover{
+    transform: scale(1.8);
+}
+
+#facebook{
+    width:80%;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+/* DERECHOS */
+
+.derechos-footer{
+    float:center;
+    width:50%;
+    font-size: calc(1vw + 3px);
+    padding:0 5px;
+    text-align:center;
+}
+
+
+
+/* LOGO FOOTER */
+.logo-footer{
+    float:right;
+    width:25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}

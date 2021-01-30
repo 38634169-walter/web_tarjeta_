@@ -1,0 +1,126 @@
+@media all and (max-width:800px){
+
+
+    /* BURBUJA 1 */
+
+    .burbuja-1{        
+        top:5cm;
+        left:6.5cm;
+    }
+
+
+    /* BURBUJA 2*/
+
+    .burbuja-2{
+        top:-0.5cm;
+        left:0;
+    }
+
+    /*   INFO   ///////////////////////////////////////////////////////////////////////*/
+    .info>ul{
+        margin-left:-1cm;
+    }
+    .info>ul>img{
+        width:2cm;
+        height:2cm;
+    }
+    .info>ul>h1{
+        font-size: 16px;
+    }
+    .info>ul>p{
+        font-size: 12px;
+    }
+
+}
+
+
+@media all and (max-width:400px){
+    
+    /*   PORTADA   ///////////////////////////////////////////////////////////////////////*/
+    
+    /* PORTADA */
+
+    .portada{
+        background-image: url(../../imagenes/portada/1.jpg);
+        background-size: 150% 80%;
+        height:12cm;
+        top:68px;
+    }
+
+    /* BURBUJA 1*/
+
+    .burbuja-1{
+        height:3.5cm;
+        width:3.5cm;
+        left:2.5cm;
+        padding-top:45px;
+    }
+
+    .burbuja-1>h1{
+        font-size: 12px;
+    }
+    .burbuja-1>p{
+        margin-top:-10px;
+        font-size: 10px;
+    }
+
+
+    /* BURBUJA 2*/
+
+    .burbuja-2{
+        height:5cm;
+        width:5cm;
+        top:0.7cm;
+        left:0cm;
+    }
+    .burbuja-2>h1{
+        font-size: 19px;
+    }
+    .burbuja-2>p{
+        font-size: 11px;
+    }
+
+    /* BURBUJAS chicas */
+
+    .b1{
+        display:none;
+    }
+    .b2{
+        top:2cm;
+        right:3cm;
+    }
+    .b3{
+        top:3cm;
+        right:4cm;
+        background:rgb(105, 49, 8);
+    }
+    .b4{
+        top:3cm;
+        right:5cm;
+    }
+    .b5{
+        top:4cm;
+        right:3.5cm;
+    }
+    .b6{
+        top:5cm;
+        right:2.5cm;
+    }
+    .b7{
+        top:5.5cm;
+        right:4cm;
+    }
+    .b8{
+        top:6.5cm;
+        right:3.5cm;
+    }
+
+    
+    /*   INFO   ///////////////////////////////////////////////////////////////////////*/
+
+    .info{
+        flex-direction: column;
+        margin-top:-1.5cm;
+    }
+
+}

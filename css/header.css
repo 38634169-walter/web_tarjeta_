@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+
+/*   MENU RESPONSIVE   ////////////////////////////////////////////////////////////*/
+
+.menu-responsive{
+    display:none;
+}
+
+/*   MENU PRINCIPAL   ////////////////////////////////////////////////////////////*/
+
+/* MENU */
+
+nav{
+    width:100%;
+    background: rgb(168, 71, 71);
+    height:2cm;
+    position:fixed;
+    top:0;
+    z-index: 4;
+    animation: menuPrincipal 1s;
+    transition:all 2s;
+}
+
+@keyframes menuPrincipal{
+    0%{
+        margin-left:-100%;
+    }
+}
+
+nav>ul{
+    height:100%;
+    margin-top:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    float:left;
+    width:60%;
+}
+
+.menu>li{
+    padding:10px;
+}
+
+.menu>li>a{
+    color:white;
+    font-size: calc(1vw + 9px);
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding:20px 10px;
+}
+
+.menu>li>a:hover{
+    background:rgba(255, 0, 0, 0.425);
+    cursor:pointer;
+}
+
+
+/* NOM */
+.nom{
+    float:right;
+    width:30%;
+}
+
+.nom>h1{
+    color:white;
+    font-size: calc(1vw + 19px);
+    font-family: 'Gorditas', cursive;
+    padding-top: 4px;
+}
+
+/*   IMAGEN PORTADA   ////////////////////////////////////////////////////////////*/
+
+.imagen-portada-container{
+    height:5cm;
+    width:100%;
+    background:linear-gradient(180deg, white,rgba(165, 42, 42, 0.486));
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:2cm;
+}
+.logo{
+    font-family: 'Gorditas', cursive;
+    font-size: calc(1vw + 29px);
+}
+.logo-icon{
+    padding-right: 10px;
+    color:chocolate;
+    font-size: calc(1vw + 29px);
+    font-weight:bold;
+}
+/* IMAGEN */
+
+.imagen-portada-container>img{
+    width:4cm;
+    height:3cm;
+    margin-left: 5%;
+    margin-top:-0.5cm;
+    position:absolute;
+    left:0;
+}
+
+/*   BOTENES TARJETAS PORADA   ////////////////////////////////////////////////////////////*/
+
+.btns-tarjetas-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    top:-0.5cm;
+}
+.btns-tarjetas-container>button{
+    width:4cm;
+    border-radius: 15px;
+    color:white;
+    font-size: calc(1vw + 4px);
+    background:chocolate;
+    padding:3px;
+    margin:0 10px;
+}
+
+

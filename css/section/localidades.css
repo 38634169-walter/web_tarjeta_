@@ -1,0 +1,134 @@
+
+/*   PORTADA   ////////////////////////////////////////////////////////////*/
+
+.portada-localidades{
+    background:linear-gradient(180deg,white,rgba(219, 25, 25, 0.438)),url(../../imagenes/portada/4.jpg);
+    background-size:100% 120%;
+    height:9cm;
+    margin-top:68px;
+}
+.portada-localidades>div{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portada-localidades>div>h1{
+    font-size:calc(1vw + 25px);
+    color:rgb(0, 0, 0);
+    margin-top:30px;
+    padding:15px 0px;
+    font-family: 'Ultra', serif;
+}
+.portada-localidades>div>p{
+    font-size:calc(1vw + 11px);
+    color:white;
+}
+
+.portada-localidades>div>ul>i{
+    margin:15px;
+    font-size: calc(1vw + 29px);
+    color:aquamarine;
+    border:1px solid aquamarine;
+    border-radius: 100%;
+    padding: 15px;
+}
+.portada-localidades>div>ul>i:nth-child(3){
+    line-height: 110%;
+}
+
+
+.titulo-localidades{
+    font-size:calc(1vw + 20px);
+    color:black;
+    text-align: center;
+    font-family: 'Coda Caption', sans-serif;
+    padding:1cm 5px;
+    padding-top:2cm;
+}
+
+
+/*   MAPAS   ////////////////////////////////////////////////////////////*/
+
+.mapas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background:linear-gradient(180deg, white 1%, rgba(219, 25, 25, 0.795) 99%, rgba(219, 25, 25, 0.438));
+}
+.mapas>ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mapas>ul>iframe{
+    position:relative;
+    width:9cm;
+    height:9cm;
+    border-radius:15px;
+    margin-top: 40px;
+    box-shadow: 2px 2px 12px black;
+}
+.mapas>ul>h1{
+    font-size: calc(1vw + 15px);    
+    padding: 10px;
+    font-family: 'Ultra', serif;
+}
+.mapas>ul>p{
+    font-size: calc(1vw + 6px);
+    margin-top:-0.7cm;
+    color:white;
+    padding:5px 0px;
+}
+@media all and (max-width:800px){
+
+    /*   MAPAS   ////////////////////////////////////////////////////////////*/
+
+    .mapas>ul{
+        width:95%;
+        margin:auto;
+        margin-left:-0.5cm;
+    }    
+    .mapas>ul>p{
+        font-size: calc(1vw + 9px);
+    }   
+}
+
+
+@media all and (max-width:400px){
+    
+    /*   PORTADA   ////////////////////////////////////////////////////////////*/
+
+    .portada-localidades>div>h1{
+        font-size:calc(1vw + 20px);
+        text-align:center;
+        padding:0px 5px;
+    }
+    .portada-localidades>div>p{
+        font-size:calc(1vw + 12px);
+        text-align:center;
+        padding:0px 5px;
+    }
+    .portada-localidades>div>ul>i{
+        margin:5px;
+        font-size: calc(1vw + 20px);
+        padding: 10px;
+    }
+    
+    
+    
+    /*   MAPAS   ////////////////////////////////////////////////////////////*/
+
+    .mapas>ul>iframe{
+        width:90%;
+        height:5cm;
+        position:relative;
+        left: 0;
+    }
+
+}
