@@ -1,15 +1,6 @@
 
 /*   PORTADA   ///////////////////////////////////////////////////////////////////////*/
 
-
-.titulo-mail{
-    font-size: calc(1vw + 25px);
-    color:black;
-    font-family: 'Coda Caption', sans-serif;
-    text-align:center;
-    padding:1cm 5px;
-}
-
 .portada-contacto{
     height:9cm;
     background-image: url(../../imagenes/portada/3.jpg);
@@ -35,6 +26,19 @@
 
 /*   EMAIL   ///////////////////////////////////////////////////////////////////////*/
 
+.titulo-mail{
+    font-size: calc(1vw + 25px);
+    color:white;
+    text-shadow:2px 2px 12px white;
+    font-family: 'Coda Caption', sans-serif;
+    text-align:center;
+    padding:1cm 5px;
+}
+.mail{
+    background:rgba(0, 0, 0, 0.452);
+    padding:20px 0px;
+    margin-top:1cm;
+}
 
 .mail>form{
     width:50%;

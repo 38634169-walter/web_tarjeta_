@@ -71,6 +71,10 @@
     .menu>li>a{
         font-size: calc(1vw + 16px);
     }
+    .menu>li>a:hover{
+        background:rgba(255, 0, 0, 0.425);
+        cursor:pointer;
+    }
 
     .nom{
         float:none;
@@ -86,7 +90,6 @@
         padding:20px 0px;
     }    
     .footer-container>ul{
-        height:100%;
         margin: 0.5cm 0px;
     }
 
@@ -95,7 +98,6 @@
         float:none;
         width:100%;
         position:relative;
-        top:1cm;
     }
     
     /* ICONOS */
@@ -105,7 +107,7 @@
         float:none;
         margin-left:-3%;
         position:relative;
-        top:0.8cm;
+        top:0;
     }
     .iconos-footer>a>i{
         font-size:calc(1vw + 14px);
@@ -117,7 +119,11 @@
         width:100%;
         font-size: calc(1vw + 6px);
         position:relative;
-        top:1cm;
+        top:0m;
+    }
+    .derechos-footer>p{
+        height:15px;
+        line-height:15px;
     }
 
 
@@ -132,7 +138,6 @@
     }
     .nom>h1{
         font-size: calc(1vw + 17px);
-        color:red;
     }
 
 
