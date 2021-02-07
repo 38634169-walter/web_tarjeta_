@@ -66,8 +66,7 @@
         background:rgba(255, 0, 0, 0.425);
     }
     .menu>li{
-        margin-left:-1.4cm;
-        left:0;
+        margin-left:-1.2cm;
     }
     .menu>li>a{
         font-size: calc(1vw + 16px);
@@ -88,7 +87,7 @@
     }    
     .footer-container>ul{
         height:100%;
-        margin-top: -0.5cm;
+        margin: 0.5cm 0px;
     }
 
     /* LOGO FOOTER */

@@ -1,13 +1,11 @@
 @media all and (max-width:800px){
 
-
     /* BURBUJA 1 */
 
     .burbuja-1{        
         top:5cm;
         left:6.5cm;
     }
-
 
     /* BURBUJA 2*/
 
@@ -17,6 +15,12 @@
     }
 
     /*   INFO   ///////////////////////////////////////////////////////////////////////*/
+    
+    .info{
+        position:relative;
+        top:-1cm;
+        margin-bottom:-1cm;
+    }
     .info>ul{
         margin-left:-1cm;
     }
