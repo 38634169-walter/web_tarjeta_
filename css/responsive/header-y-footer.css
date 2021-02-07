@@ -132,6 +132,7 @@
     }
     .nom>h1{
         font-size: calc(1vw + 17px);
+        color:red;
     }
 
 
