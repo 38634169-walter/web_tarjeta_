@@ -1,3 +1,16 @@
+
+/*   IMAGEN PORTADA   ////////////////////////////////////////////////////////////*/
+
+.logo-portada{
+font-family: 'Gorditas', cursive;
+    font-size: calc(1vw + 25px);
+}
+.logo-icon-portada{
+    padding-right: 10px;
+    color:chocolate;
+    font-size: calc(1vw + 25px);
+}
+
 /*   TARJETA ROJA SECTION   ////////////////////////////////////////////////////////////*/
 
 .tarjeta-roja-container{

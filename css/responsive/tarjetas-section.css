@@ -3,13 +3,7 @@
 
     /*   IMAGEN PORTADA   ////////////////////////////////////////////////////////////*/
 
-    .logo{
-        font-size: calc(1vw + 25px);
-    }
-    .logo-icon{
-        font-size: calc(1vw + 25px);
-    }
-
+    
     /* IMAGEN */
     .imagen-portada-container>img{
         width:3cm;
@@ -154,7 +148,7 @@
     .imagen-portada-container{
         flex-direction:column;
     }
-    .logo{
+    .logo-portada{
         font-size: calc(1vw + 25px);
         margin-top:1cm;
     }

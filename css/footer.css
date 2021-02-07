@@ -1,17 +1,17 @@
-
 .footer-container{
-    position: relative;
-    top:1cm;
-    background:rgba(255, 0, 0, 0.425);
+    margin-top:1cm;
     width: 100%;
     overflow: hidden;
+    padding: 1cm 0px;
+    background:rgba(255, 0, 0, 0.425);
+    border:2px solid green;
 }
 
 .footer-container>ul{
     display:flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 1cm;
+    justify-items: center;
+    border:2px solid red
 }
 
 
@@ -29,11 +29,11 @@
 
 .iconos-footer>a>i{
     color:white;
-    margin:5px;
+    margin:0px 5px;
     border-radius: 35px;
     border:2px solid white;
     font-size:calc(1vw + 7px);
-    padding:10px;
+    padding: 10px;
     transition: all 1s;
 }
 
@@ -51,21 +51,20 @@
 /* DERECHOS */
 
 .derechos-footer{
-    float:center;
     width:50%;
+    float:center;
     font-size: calc(1vw + 3px);
     padding:0 5px;
     text-align:center;
 }
 
-
-
 /* LOGO FOOTER */
 .logo-footer{
-    float:right;
     width:25%;
+    float:right;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0;
 }
+

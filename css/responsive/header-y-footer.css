@@ -48,12 +48,22 @@
         float:none;
         width:100%;
         margin-top:0cm;
+        border:2px solid green;
     }
     .menu>li>a:hover{
         background:none;
     }
     .menu>li:hover{
         background:rgba(255, 0, 0, 0.425);
+    }
+    .menu>li{
+        margin-left:-1.4cm;
+        left:0;
+        border:2px solid red;
+    }
+    .menu>li>a{
+        font-size: calc(1vw + 16px);
+        border:2px solid yellow;
     }
 
     .nom{
@@ -87,7 +97,7 @@
     .iconos-footer{
         width:100%;
         float:none;
-        margin-left:-5%;
+        margin-left:-3%;
         position:relative;
         top:0.8cm;
     }
