@@ -93,13 +93,7 @@
         margin:auto;
     }
     .mail>form>li{
-        margin:0px 5px;
-        
-    }
-    .mail>form>li>input{
-    }
-    .mail>form>li>textarea{
-
+        margin:0px 5px;   
     }
     .mail>form>li>button{
         position:relative;
