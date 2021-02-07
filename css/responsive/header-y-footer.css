@@ -26,6 +26,16 @@
         color:white;
         padding:5px;
     }
+    .xicon-menu{
+        display:none;
+    }
+    
+    .add-display{
+        display:block;
+    }
+    .remove-display{
+        display:none;
+    }
 
     /*   MENU PRINCIPAL   ////////////////////////////////////////////////////////////*/
 
@@ -48,7 +58,6 @@
         float:none;
         width:100%;
         margin-top:0cm;
-        border:2px solid green;
     }
     .menu>li>a:hover{
         background:none;
@@ -59,11 +68,9 @@
     .menu>li{
         margin-left:-1.4cm;
         left:0;
-        border:2px solid red;
     }
     .menu>li>a{
         font-size: calc(1vw + 16px);
-        border:2px solid yellow;
     }
 
     .nom{
