@@ -71,10 +71,6 @@
     .menu>li>a{
         font-size: calc(1vw + 16px);
     }
-    .menu>li>a:hover{
-        background:rgba(255, 0, 0, 0.425);
-        cursor:pointer;
-    }
 
     .nom{
         float:none;

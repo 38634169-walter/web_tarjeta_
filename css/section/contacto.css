@@ -26,35 +26,36 @@
 
 /*   EMAIL   ///////////////////////////////////////////////////////////////////////*/
 
-.titulo-mail{
-    font-size: calc(1vw + 25px);
-    color:white;
-    text-shadow:2px 2px 12px white;
-    font-family: 'Coda Caption', sans-serif;
-    text-align:center;
-    padding:1cm 5px;
-}
 .mail{
     background:rgba(0, 0, 0, 0.452);
     padding:20px 0px;
     margin-top:1cm;
 }
-
+.mail>h1{
+    font-size: calc(1vw + 25px);
+    color:white;
+    text-shadow:2px 2px 12px white;
+    font-family: 'Coda Caption', sans-serif;
+    text-align:center;
+    padding:1cm 20px;
+}
 .mail>form{
     width:50%;
     margin:auto;
 }
 .mail>form>li{
     margin-top: 0.5cm;
-    display:grid;    
+    display:grid;       
 }
 .mail>form>li>input{
     border-radius:15px;
     padding-left: 10px;
+    width:100%;
 }
 .mail>form>li>textarea{
     border-radius:15px;
     padding-left: 10px;
+    width:100%;
 }
 .mail>form>li>button{
     border:9px solid rgb(1, 218, 1);
@@ -79,20 +80,26 @@
         text-align: center;
     }
 
-
     /*   EMAIL   ///////////////////////////////////////////////////////////////////////*/
-    
+    .mail{
+        padding:1cm 0px;
+    }
+    .mail>h1{
+        font-size: calc(1vw + 20px);
+    }
+
     .mail>form{
-        width:100%;
+        width:80%;
+        margin:auto;
     }
     .mail>form>li{
         margin:0px 5px;
+        
     }
     .mail>form>li>input{
-        width:95%;
     }
     .mail>form>li>textarea{
-        width:95%;
+
     }
     .mail>form>li>button{
         position:relative;
