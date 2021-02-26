@@ -64,6 +64,7 @@ nav>ul{
 .menu>li>a:hover{
     background:rgba(255, 0, 0, 0.425);
     cursor:pointer;
+    padding:0.5cm 10px;
 }
 
 

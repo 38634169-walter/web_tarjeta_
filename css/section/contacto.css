@@ -4,9 +4,12 @@
 
 .titulo-mail{
     font-size: calc(1vw + 25px);
-    color:black;
+    color:white;
     font-family: 'Coda Caption', sans-serif;
     text-align:center;
+    text-shadow:2px 2px 25px black;
+    padding:20px;
+    background: green;
     padding:1cm 5px;
 }
 

@@ -1,6 +1,4 @@
 
-
-
 /*   PORTADA   ///////////////////////////////////////////////////////////////////////*/
 
 /* PORTADA */
@@ -9,7 +7,7 @@
     background-image: url(../../imagenes/portada/1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height:12cm;
+    height:13cm;
     top:68px;
 }
 

@@ -20,6 +20,7 @@
         position:relative;
         top:-1cm;
         margin-bottom:-1cm;
+        margin-top:0;
     }
     .info>ul{
         margin-left:-1cm;

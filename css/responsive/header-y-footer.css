@@ -48,7 +48,7 @@
         overflow: scroll;
         z-index: 3;
         background: rgb(168, 71, 71);
-        transition: none;
+        transition: all 1s;
     }
     nav>ul{
         display:block;
@@ -59,12 +59,7 @@
         width:100%;
         margin-top:0cm;
     }
-    .menu>li>a:hover{
-        background:none;
-    }
-    .menu>li:hover{
-        background:rgba(255, 0, 0, 0.425);
-    }
+    
     .menu>li{
         margin-left:-1.2cm;
     }
