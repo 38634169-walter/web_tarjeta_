@@ -54,6 +54,14 @@
     font-size: calc(1vw + 3px);
     padding:0 5px;
     text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.derechos-footer>p{
+    margin:0;
+    font-size:calc(1vw + 5px);
 }
 
 /* LOGO FOOTER */

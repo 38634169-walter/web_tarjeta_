@@ -120,6 +120,10 @@
         position:relative;
         top:1cm;
     }
+    .derechos-footer>p{
+        font-size:calc(1vw + 7px);
+    }
+
 
 
 }
