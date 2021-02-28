@@ -67,6 +67,12 @@
         font-size: calc(1vw + 16px);
     }
 
+    .menu>li>a:hover{
+        padding:8px 0px;
+        padding-left:20px;
+
+    }
+
     .nom{
         float:none;
         width:100%;

@@ -8,9 +8,10 @@ function mostrar_menu(){
 
     $('.xicon-menu').click(ocultar);
 
-    $('section').click(ocultar);
-    $('footer').click(ocultar);
-
+    if ($(window).width() <= 800){  
+        $('section').click(ocultar);
+        $('footer').click(ocultar);
+    }
 
 }
 
