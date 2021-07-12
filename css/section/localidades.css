@@ -2,7 +2,7 @@
 /*   PORTADA   ////////////////////////////////////////////////////////////*/
 
 .portada-localidades{
-    background:linear-gradient(180deg,white,rgba(219, 25, 25, 0.438)),url(../../imagenes/portada/4.jpg);
+    background:linear-gradient(180deg,white,rgba(219, 25, 25, 0.438)),url(../../imagenes/portada/4.webp);
     background-size:100% 120%;
     height:9cm;
     margin-top:68px;

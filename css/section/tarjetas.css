@@ -121,7 +121,7 @@ font-family: 'Gorditas', cursive;
     width:12cm;
     margin:auto;
     height:4cm;
-    background-image: linear-gradient(20deg, white 30%,transparent, rgb(1, 1, 129) 90%),url(../../imagenes/relleno/4.jpg);
+    background-image: linear-gradient(20deg, white 30%,transparent, rgb(1, 1, 129) 90%),url(../../imagenes/relleno/4.webp);
     background-size: 100% 100%;
     border-radius: 15px;
 }
@@ -195,7 +195,7 @@ font-family: 'Gorditas', cursive;
 
 /* BOX TARJETA */
 .diferencias>li{
-    background:linear-gradient(20deg, white 3%, transparent 85%, gold 10%),url(../../imagenes/relleno/6.jpg);
+    background:linear-gradient(20deg, white 3%, transparent 85%, gold 10%),url(../../imagenes/relleno/6.webp);
     background-size:100% 100%;
     border-radius: 15px;
     box-shadow: 2px 2px 12px black;
