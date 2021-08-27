@@ -22,7 +22,9 @@
         cursor:pointer;
     }
     .menu-responsive>h1{
-        font-size: 39px;
+        font-size: 25px;
+        font-family: 'Gorditas', cursive;
+        margin-top:0.4cm;
         color:white;
         padding:5px;
     }
