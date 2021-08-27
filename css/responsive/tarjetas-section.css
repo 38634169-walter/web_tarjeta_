@@ -43,6 +43,10 @@
     .tarjeta-azul-container{
         width: 95%;
     }
+    .tarjeta-azul-container>ul{
+        margin:0;
+        padding-left:12px;
+    }
 
     /* IMAGEN */
 
@@ -169,6 +173,8 @@
         flex-direction: column;
         align-items: center;
         margin-top:0;
+        margin:0;
+        padding-left: 12px;
     }
 
     .tarjeta-roja-container>ul>p{

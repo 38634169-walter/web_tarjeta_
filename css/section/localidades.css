@@ -27,7 +27,13 @@
     font-size:calc(1vw + 11px);
     color:white;
 }
-
+.portada-localidades>div>ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding:0;
+}
 .portada-localidades>div>ul>i{
     margin:15px;
     font-size: calc(1vw + 29px);
@@ -54,6 +60,7 @@
 /*   MAPAS   ////////////////////////////////////////////////////////////*/
 
 .mapas{
+    padding-left:18px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -79,11 +86,12 @@
     padding: 10px;
     padding-bottom:15px;
     font-family: 'Ultra', serif;
+    text-align: center;
 }
 .mapas>ul>p{
     font-size: calc(1vw + 6px);
     margin-top:-0.7cm;
-    color:white;
+    color:rgb(0, 0, 0);
     padding:5px 0px;
 }
 @media all and (max-width:800px){
