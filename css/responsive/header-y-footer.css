@@ -84,7 +84,6 @@
     }    
     .footer-container>ul{
         height:100%;
-        margin-top: 0.5cm;
     }
 
     /* LOGO FOOTER */
@@ -92,6 +91,7 @@
         float:none;
         width:100%;
         position:relative;
+        margin-bottom:0cm;
     }
     
     /* ICONOS */
@@ -99,7 +99,7 @@
     .iconos-footer{
         width:100%;
         float:none;
-        padding-left:12px;
+        padding:0px;
         position:relative;
     }
     .iconos-footer>a>i{
