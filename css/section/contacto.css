@@ -38,7 +38,6 @@
 
 /*   EMAIL   ///////////////////////////////////////////////////////////////////////*/
 
-
 .mail>form{
     width:50%;
     margin:auto;
@@ -83,6 +82,7 @@
     
     .mail>form{
         width:100%;
+        padding-left:12px;
     }
     .mail>form>li{
         margin:0px 5px;

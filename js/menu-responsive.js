@@ -16,13 +16,13 @@ function mostrar_menu(){
 }
 
 function mostrar(){
-    $('.nav').css({'left': '0'});
+    $('.nav').css({'transition':'all 0.5s','left': '0'});
     $('.btn-responsive').css({'display':'none'});
     $('.xicon-menu').css({'display':'block'});
 }
 
 function ocultar(){
-    $('.nav').css({'left':'-100%'});
+    $('.nav').css({'transition':'all 0.5s','left':'-100%'});
     $('.btn-responsive').css({'display':'block'});
     $('.xicon-menu').css({'display':'none'});
 }

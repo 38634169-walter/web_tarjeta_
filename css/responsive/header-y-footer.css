@@ -26,14 +26,8 @@
         color:white;
         padding:5px;
     }
+
     .xicon-menu{
-        display:none;
-    }
-    
-    .add-display{
-        display:block;
-    }
-    .remove-display{
         display:none;
     }
 
