@@ -78,11 +78,11 @@
     /*   FOOTER   ////////////////////////////////////////////////////////////*/
 
     .footer-container{
-        padding:20px 0px;
+        padding-top:20px;
     }    
     .footer-container>ul{
         height:100%;
-        margin: 0.5cm 0px;
+        margin-top: 0.5cm;
     }
 
     /* LOGO FOOTER */
@@ -90,7 +90,6 @@
         float:none;
         width:100%;
         position:relative;
-        top:1cm;
     }
     
     /* ICONOS */
@@ -98,9 +97,8 @@
     .iconos-footer{
         width:100%;
         float:none;
-        margin-left:-3%;
+        padding-left:12px;
         position:relative;
-        top:0.8cm;
     }
     .iconos-footer>a>i{
         font-size:calc(1vw + 14px);
@@ -112,14 +110,10 @@
         width:100%;
         font-size: calc(1vw + 6px);
         position:relative;
-        top:1cm;
     }
     .derechos-footer>p{
         font-size:calc(1vw + 7px);
     }
-
-
-
 }
 
 @media screen and (max-width:400px){
