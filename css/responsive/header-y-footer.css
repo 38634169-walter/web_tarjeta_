@@ -22,7 +22,7 @@
         cursor:pointer;
     }
     .menu-responsive>h1{
-        font-size: 30px;
+        font-size: 40px;
         font-family: 'Gorditas', cursive;
         margin-top:0.5cm;
         color:white;
@@ -126,7 +126,7 @@
         height:1cm;
     }
     .nom>h1{
-
+        font-size: calc(1vw + 17px);
     }
 
 
